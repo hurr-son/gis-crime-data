@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and Logs
+*.log
+.cache/
+*.pyc
+
+# Testing files
+*.test
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore specific directory for GIS crime data
+vector-data/mke-crime-data-2002-2023/
+
+# Virtual environment
+venv/
+*.venv
+env/
